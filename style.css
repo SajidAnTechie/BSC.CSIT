@@ -1,0 +1,462 @@
+
+.error{
+	color:red;
+}
+/* for register css */
+
+.forimgrespon{
+	width:70px;
+	height:70px;
+}
+.forimg{
+	text-align:center;
+}
+.header-regitration{
+	background-color: #12436A;
+    width: 384px;
+    height: 477px;
+    position: absolute;
+	top: 56%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	background-position: center;
+    background-size: cover;
+	color: #d7d7d7;
+	display:none;
+	border-radius: 24px;
+}
+#show{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#show{
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+button#show {
+    position: absolute;
+    top: 50%;
+         left: 47%;
+}
+@media (max-width: 1023px){
+	.header-regitration{
+		    position: fixed;
+    left: 181px;
+        top: 53%;
+		
+	}
+	
+}
+@media (max-width: 1023px){
+	.forres{
+		position:absolute;
+		top:10px;
+		left:8px;
+		
+	}
+	
+}
+.form-group span {
+    position: absolute;
+    left: 101px;
+  
+}
+
+.header-regitration h2{
+	color:white;
+	margin-top:40px;
+	margin-bottom: 40px;
+	text-transform:uppercase;
+}
+.header-regitration p a{
+	margin-left:12px;
+}
+.form-group input{
+	    background: none;
+    
+    text-align: center;
+    border: 2px solid #4d77b0;
+   
+    padding: 6px 10px;
+    border-radius: 25px;
+    width: 200px;
+	outline:none;
+	transition:0.75s;
+	color:white;
+	    margin-top: 8px;
+}
+.form-group input:hover{
+	width:300px;
+	border: 2px solid #ffff;
+}
+
+
+.navbarregister{
+	left:25px;
+	position:absolute;
+}
+
+
+/* end of register css */
+
+/* for login css */
+
+
+
+.forimglogin{
+	width:70px;
+	height:70px;
+}
+#forbuttonjs{
+	float:right;
+	    margin-top: 20px;
+}
+.loginnavbar{
+	background-color:#eee;
+	background-color: #f0f0f0;
+    padding: 10px;
+	border-bottom: 2px solid #d5d5d5;
+}
+.header-login{
+	background-color:#12436A;
+	width: 394px;
+    height: 408px;
+    padding: 22px;
+    color: #d7d7d7;
+	border-radius: 24px;
+	margin-top: 90px;
+}
+.header-login h2 {
+	
+	text-align:center;
+}
+.login-group input{
+	border: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid #706d6d;
+    border-style: dotted;
+       padding: 4px 0px;
+    width: 100%;
+    color: white;
+     outline: none; 
+    margin-bottom: 12px;
+	    margin-top: 15px;
+}
+.login-group input{
+	position:relative;
+}
+.login-group  label{
+	    position: relative;
+    pointer-events: none;
+    transition: .5s;
+    font-size: 14px;
+    color: #acabab;
+      top: 24px;
+	    
+}
+.login-group span{
+	position:absolute;
+}
+.header-login p{
+	text-align:center;
+	margin-left: 128px;
+}
+.header-login p a{
+    position: relative;
+     left: 18px;
+}
+
+img.system {
+    width: 75px;
+}
+div#forcenter {
+    text-align: center;
+    margin-top: 41px;
+}
+div#forcenter h4{
+	font-weight:bold;
+}
+.forjquerry {
+    position: absolute;
+    top: 83px;
+	
+}
+#abs{
+	position:absolute;
+}
+.formemebers h3{
+	text-align:center;
+}
+img.sajidps {
+    border-radius: 50%;
+    width: 92px;
+    height: 97px;
+    border: 1px solid #f84848;
+	object-fit: cover;
+}
+.nibi{
+	border-radius: 50%;
+    width: 92px;
+    height: 97px;
+    border: 1px solid #f84848;
+	object-fit: cover;
+}
+
+#formembermar {
+	text-align: center;
+    margin-top: 41px;
+    margin-right: 57px;	
+}
+#formembermar h4{
+	font-weight:bold;
+	font-size: 17px;
+}
+.formemebers {
+    position: absolute;
+    top: 40px;
+	display:none;
+}
+
+
+/* For index page */
+
+
+nav ul li{
+	list-style: none;
+    display: inline;
+    position: relative;
+    top: 27px;
+	padding: 0px 40px 0px 40px;  
+}
+@media (max-width: 1023px){
+	nav ul li{
+	position: relative;
+    top: 15px;
+    padding: 1px;
+    right: 17px;
+	}
+}
+nav ul li a{
+	text-decoration: none;
+    color: #a6a3a3;
+    position: relative;
+    padding: 0px 10px 8px 10px;
+}
+.navbar-background{
+	background-color:#f0f0f0;
+	height: 76px;
+}
+@media (max-width: 1023px){
+	.navbar-background{
+	height: 116px;
+    padding: 3px;
+	}
+}
+div#image-id {
+       margin-top: 5px;
+}
+.forimgindex{
+	width: 60px;
+    height: 60px;
+}
+nav  ul li  a::after{
+	content: '';
+    width: 0px;
+    height: 2px;
+    background: #0a408a;
+    position: absolute;
+    transition: width .3s;
+    top: 100%;
+    left: 0px;
+}
+
+nav ul li:hover  a::after{
+	width: 100%;
+	transition: width 0.3s;
+}
+nav li a:hover {
+    text-decoration: none;
+	color: #0a408a;
+}
+#for-button{
+	float: right;
+    margin-top: -10px;
+	margin-right: 12px;
+}
+@media (max-width : 1023px){
+	#for-button{
+	margin-top: -76px;
+	}
+}
+#for-button span{
+	padding: 0px 15px 0px 0px;
+}
+.active, .btn:hover {
+  background-color: #337ab7;
+  color: white;
+}
+#myDIV span{
+	padding: 0px 0px 0px 70px;
+}
+div#myDIV {
+    position: relative;
+    top: 62px;
+}
+img.logout-icon {
+    width: 79px;
+}
+.forlogout-session{
+	background-color: #12436A;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    padding: 47px;
+	display:none;
+	z-index:1;
+}
+@media (max-width:1023px){
+	.forlogout-session{
+	position: fixed;
+    top: 358px;
+	}
+}
+
+
+/* for left-bar */
+
+
+
+.list-view h2 {
+    font-size: 15px;
+    font-weight: bold;    
+	margin-left: 22px;
+	
+}
+.list-view ul li{
+	list-style: none;
+    background-color: #eeecec;
+    position: relative;
+    left: 0px;
+    height: 37px;
+    border-bottom: 4px solid #f5f5f8;
+    padding: 4px 12px 4px 23px;
+    border-radius: 6px;
+    width: 161px;
+}
+.list-view ul li:hover{
+	background-color: lightgrey;
+}
+@media (max-width:1023px){
+	.list-view ul li{
+   height: 40px;
+    width: 129px;
+    padding: 7px 0px 0px 9px;
+    position: relative;
+    left: -7px;
+	}
+}
+.list-view ul li a{
+	text-decoration:none;
+	color:black;
+}
+@media (max-width:1023px){
+	.list-view ul li a{
+		position:relative;
+	}
+}
+.first-sem-icon{
+	width: 23px;
+}
+
+
+
+#for-table-back {
+    background-color: #f5f5f8;
+    position: fixed;
+    top: 76px;
+    padding-bottom: 100%;
+    left: 0px;
+    width: 217px;
+}
+
+@media (max-width:1023px){
+	#for-table-back{
+	position: fixed;
+    top: 116px;
+    width: 192px;
+	}
+	
+}
+/* main.php css */
+.header-bsccit{
+	
+    background-color: #337ab7;
+    height: 233px;
+    padding: 1px;
+    color:#f6f4f2;
+    text-align: center;
+}
+.header-bsccit h2{
+	font-size:24px;
+}
+#for-icon{
+	background-color: #df332d;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 17px;
+    font-size: 19px;
+    color: #f6f4f2;
+    margin-left: 39%;
+    margin-bottom: 18px;
+}
+#for-position{
+	text-align: center;
+    background: #f4f2f2;
+    padding: 54px;
+    height: 300px;
+    box-shadow: 0px 5px 17px 0px #0000005e;
+	transition:all 3s;
+}
+#for-position:hover{
+	background-color:#d1b023;
+	color:white;
+}
+#for-position h4{
+	margin-top:36px;
+}
+#for-position p{
+	line-height:25px;
+}
+.for-information{
+	position:relative;
+}
+.for-information-second{
+	position: absolute;
+    top: -140px;
+    padding: 18px;
+}
